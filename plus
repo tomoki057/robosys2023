@@ -2,22 +2,10 @@
 # SPDX-FileCopyrightText: 2023 Tomoki sato
 # SPDX-License-Identifier: BSD-3-Clause
 
-import sys
+import sys  
 
-ans1 = 0.0
-ans2 = 0.0
-ans3 = 1.0
-ans4 = 1.0
+  ans = 0.0
+  for line in sys.stdin:
+      ans += float(line)
 
-for line in sys.stdin:
-    Num = float(line)
-    ans1 += Num
-    ans2 -= Num
-    ans3 *= Num
-    ans4 /= Num
-
-print("addition:",  ans1)
-print("subtraction:",  ans2)
-print("multiplication:",  ans3)
-print("division:",  ans4)
-
+  print(ans)
