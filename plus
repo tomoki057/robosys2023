@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Tomoki sato
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+ans1 = 0.0
+ans2 = 0.0
+ans3 = 1.0
+ans4 = 1.0
+
+for line in sys.stdin:
+    num = float(line)
+    ans1 += num
+    ans2 -= num
+    ans3 *= num
+    ans4 /= num
+
+print("足し算: ", ans1)
+print("引き算: ", ans2)
+print("掛け算: ", ans3)
+print("割り算: ", ans4)
