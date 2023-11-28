@@ -4,9 +4,11 @@
 [![test](https://github.com/tomoki057/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/tomoki057/robosys2023/actions/workflows/test.yml)
 
 #インストール方法
-下記のリンクからインストールすることが出来る。
+* 下記のリンクからインストールすることが出来る。
 
-> git clone https://github.com/tomoki057/robosys2023
+```
+git clone git@github.com:tomoki057/robosys2023.git
+```
 
 # plusコマンド
 >
