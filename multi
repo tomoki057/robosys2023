@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Tomoki sato
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+ans3 = 1.0
+
+for line in sys.stdin:
+    ans3 *= float(line)
+
+print(ans3)
