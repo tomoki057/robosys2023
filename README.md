@@ -1,13 +1,25 @@
-# robosys2023
-* このレポジトリは、ロボットシステム学の講義内で作成したplusコマンドを少し加筆したものになります。
+## robosys2023
+[![test](https://github.com/tomoki057/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/tomoki057/robosys2023/actions/workflows/test.yml)
 
-# インストール方法
+* このレポジトリは、2023年度ロボットシステム学の講義内で作成したpythonプログラムを、シェルスクリプトの挙動の確認をするテストでバッシュしたものになります。
+
+## インストール方法
 ```
 git clone git@github.com:tomoki057/robosys2023.git
 ```
+# 実行結果
 
-# plusコマンド
-[![test](https://github.com/tomoki057/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/tomoki057/robosys2023/actions/workflows/test.yml)
+### plus(足し算)コマンド
+*
+
+### sub(引き算)コマンド
+*
+
+### multi(掛け算)コマンド
+*
+
+### div(割り算)コマンド
+* 
 
 ## 必要なソフトウェア
 * Python
