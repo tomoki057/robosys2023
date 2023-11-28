@@ -1,17 +1,15 @@
 # robosys2023
-ロボットシステム学2023
+* ロボットシステム学2023
 
 [![test](https://github.com/tomoki057/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/tomoki057/robosys2023/actions/workflows/test.yml)
 
-#インストール方法
-* 下記のリンクからインストールすることが出来る。
-
+# インストール方法
 ```
 git clone git@github.com:tomoki057/robosys2023.git
 ```
 
 # plusコマンド
->
+
 
 ## 必要なソフトウェア
 * Python
