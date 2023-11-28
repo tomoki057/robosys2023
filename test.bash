@@ -49,15 +49,15 @@ out=$(echo | ./multi) #空文字
 [ "${out}" = "" ] || ng ${LINENO}
 
 ### I/O TEST ###
-out=$(seq 5 | ./dev)
+out=$(seq 5 | ./div)
 [ "${out}" = 0.008333333333333333 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
-out=$(echo あ | ./dev)
+out=$(echo あ | ./div)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
     　
-out=$(echo | ./dev) #空文字
+out=$(echo | ./div) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
