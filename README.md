@@ -14,7 +14,7 @@ git clone https://github.com/tomoki057/robosys2023.git
 cd robosys2023
 ```
 
-## 実行結果
+## 実験方法と実行結果
 ### plusコマンド
 * このコマンドは、0から足し算を行うコマンドであり、実行方法と実行結果は以下のようになる
 
