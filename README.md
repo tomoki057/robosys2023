@@ -24,7 +24,7 @@ $ seq 5 | ./plus
 ###実行結果###
 15
 ```
----
+
 ## subコマンド
 * このコマンドは,0から引き算を行うコマンドであり,実行方法と実行結果は以下のようになる.
 
@@ -35,7 +35,7 @@ $ seq 5 | ./sub
 ###実行結果###
 -15
 ```
----
+
 ## multiコマンド
 * このコマンドは,１から掛け算を行うコマンドであり,実行方法と実行結果は以下のようになる.
 
@@ -46,7 +46,7 @@ $ seq 5 | ./multi
 ###実行結果###
 120
 ```
----
+
 ## divコマンド
 * このコマンドは,１から割り算を行うコマンドであり,実行方法と実行結果は以下のようになる.
 
@@ -69,5 +69,6 @@ $ seq 5 | ./div
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-    *[ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+    * [ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+
 * © 2023 Tomoki sato
