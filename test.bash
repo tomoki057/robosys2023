@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2023 Tomoki sato
 # SPDX-Licence-Identifier: BSD-3-Clause
 
