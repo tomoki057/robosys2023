@@ -5,7 +5,6 @@
 import sys
 
 ans1 = 0.0
-
 for line in sys.stdin:
     ans1 += float(line)
 
