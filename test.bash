@@ -17,7 +17,7 @@ out=$(seq 5 | ./plus)
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
-    　 
+
 out=$(echo | ./plus) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
@@ -30,7 +30,7 @@ out=$(seq 5 | ./sub)
 out=$(echo あ | ./sub)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
-    　
+
 out=$(echo | ./sub) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
@@ -43,7 +43,7 @@ out=$(seq 5 | ./multi)
 out=$(echo あ | ./multi)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
-    　
+
 out=$(echo | ./multi) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
@@ -56,7 +56,7 @@ out=$(seq 5 | ./div)
 out=$(echo あ | ./div)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
-    　
+
 out=$(echo | ./div) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
